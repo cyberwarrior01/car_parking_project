@@ -1,0 +1,24 @@
+# Car Parking Detection Project
+
+## Overview
+This project detects free parking spaces from a video feed and announces the number of free spaces every 2 seconds. It also allows you to define and manage parking spaces interactively.
+
+## File Structure
+- `data/`
+  - `carPark.mp4`: Video file for parking space detection.
+  - `carParkImg.png`: Image file for defining parking spaces.
+  - `CarParkPos`: Pickle file storing parking space positions.
+- `src/`
+  - `define_parking_spaces.py`: Script for defining and removing parking spaces interactively.
+  - `parking_detection.py`: Script for detecting and announcing free parking spaces.
+- `logs/`
+  - `parking_log.csv`: Log file for parking space data (not used in this code, but could be added for logging purposes).
+- `README.md`: Documentation file.
+- `requirements.txt`: List of Python dependencies.
+- `setup.py`: Setup script for the project environment (optional).
+
+## Requirements
+Install the required Python packages using:
+
+```bash
+pip install -r requirements.txt
